@@ -1,6 +1,3 @@
-
- 
-
 while(true) {
         var tafel = prompt("welke tafel wilt u?")
 
@@ -11,8 +8,7 @@ while(true) {
                 //mooi tabel maken
                 for (var i = 1; i <= tafel; i++){
                     for(j = 1; j <= 10; j++){
-                        document.write(i+"x"+ j +"="+ i*j +"<br>")
-                    
+                        document.write(i+"x"+ j +"="+ i*j +"<br>")       
                     }
                     document.write("<br> <br>")
                 }
@@ -30,5 +26,3 @@ while(true) {
 
         }
     }
-
-
